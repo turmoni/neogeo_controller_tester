@@ -10,8 +10,8 @@ jobs:
         uses: emilymclean/kicad-pdf@v1.0.4
         with:
           input-files: neogeo_controller_tester.kicad_sch
-          output-file: generated/neogeo_controller_tester_schematic.pdf
+          output-file: neogeo_controller_tester_schematic.pdf
       - uses: actions/upload-artifact@v4
         with:
           name: testing
-          path: generated/neogeo_controller_tester_schematic.pdf
+          path: neogeo_controller_tester_schematic.pdf
