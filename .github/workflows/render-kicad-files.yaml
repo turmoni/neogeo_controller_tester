@@ -1,7 +1,10 @@
 name: Render KiCad files
-on: [push]
+on:
+  push:
+    paths:
+      - "*.kicad_*"
 jobs:
-  generate_pdf:
+  generate_files:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
