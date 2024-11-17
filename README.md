@@ -1,4 +1,7 @@
 # neogeo_controller_tester
+
+![A photograph of an assembled Rev 2 PCB, using the options of two resistor arrays instead of twelve individual resistors, and only having the USB type C port components populated](images/rev_2_photo.jpg)
+
 A simple board that tests the pins of a NeoGeo/Supergun-compatible DA15 controller. Ultimately this is a slightly fancy way of getting 5V through a bunch of LEDs, which will illuminate when the corresponding button is pressed.
 
 I created this for my own use with building [my 9pin2supergun project](https://github.com/turmoni/9pin2supergun), as a simple visual way to check whether my hardware and code were working properly, but I can imagine it being useful to other people.
